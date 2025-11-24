@@ -1,0 +1,8 @@
+Qual componente é conhecido como o "cérebro" do computador? ; 1- Processador(CPU) ; 2- Memória RAM ; 3- Fonte de alimentação
+Qual é o sinal de atribuição em java? ; 1- + ; 2- = ; 3- ==
+O que faz o comando System.out.println() em Java? ; 1- Imprime um texto do sistema ; 2- Imprime texto no console ; 3- Imprime texto no console e pula para a próxima linha
+O que protege um computador de malwares e vírus? ; 1- Senhas ; 2- Firewall ; 3- Ibuprofeno
+O que o comando hasNext() faz? ; 1- Verifica se existe um próximo elemento na entrada de dados ; 2- Pula para o próximo elemento na entrada de dados ; 3- Retorna o próximo elemento da entrada de dados
+Quem é a primeira programadora da história? ; 1- Ada Lovelace ; 2- Grace Hopper ; 3- Margaret Hamilton
+Qual a linguagem de programação mais usada? ; 1- Java ; 2- JavaScript ; 3- C++
+Qual era o nome original do Java antes de ser batizado? ; 1- NetBeans ; 2- Green ; 3- Oak
