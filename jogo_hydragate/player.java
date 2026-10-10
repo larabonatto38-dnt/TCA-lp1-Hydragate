@@ -1,3 +1,4 @@
+package jogo_hydragate;
 public class player {
     int vida;
     int dano;

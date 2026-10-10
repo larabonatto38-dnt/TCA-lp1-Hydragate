@@ -1,3 +1,4 @@
+package jogo_hydragate;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -203,7 +204,7 @@ public class hydragate {
 
                 int[][] matrizZeroUm = preencherMatriz(8, 4, vetRespostas);
 
-                String[][] matrizPerguntas = lerDoArquivo("perguntas.txt");
+                String[][] matrizPerguntas = lerDoArquivo("jogo_hydragate/perguntas.txt");
 
                 setColor(1);
                 printFirewall();
@@ -771,83 +772,83 @@ public class hydragate {
         }
 
         public static void tocarSomFirewall() {
-                tocarSom("sons/facebook-messenger-2013 (online-audio-converter.com).wav");
+                tocarSom("jogo_hydragate/sons/facebook-messenger-2013 (online-audio-converter.com).wav");
         }
 
         public static void tocarSomAlerta() {
-                tocarSom("sons/alarm-sound-effect (online-audio-converter.com).wav");
+                tocarSom("jogo_hydragate/sons/alarm-sound-effect (online-audio-converter.com).wav");
         }
 
         public static void tocarSomEscolha() {
-                tocarSom("sons/somEscolha.wav");
+                tocarSom("jogo_hydragate/sons/somEscolha.wav");
         }
 
         public static void tocarSomHistoria() {
-                tocarSom("sons/somHistoria.wav");
+                tocarSom("jogo_hydragate/sons/somHistoria.wav");
         }
 
         public static void tocarSomMenu() {
-                tocarSom("sons/somMenu0528.wav");
+                tocarSom("jogo_hydragate/sons/somMenu0528.wav");
         }
 
         public static void tocarSomRevelarHabilidade() {
-                tocarSom("sons/somRevelar.wav");
+                tocarSom("jogo_hydragate/sons/somRevelar.wav");
         }
 
         public static void tocarSomDanoMinecraft() {
-                tocarSom("sons/classic_hurt.wav");
+                tocarSom("jogo_hydragate/sons/classic_hurt.wav");
         }
 
         public static void tocarSomCorreto() {
-                tocarSom("sons/correct_9GUJzWlz.wav");
+                tocarSom("jogo_hydragate/sons/correct_9GUJzWlz.wav");
         }
 
         public static void tocarSomBaforadaHidra() {
-                tocarSom("sons/ender-dragon-roar-2-made-with-Voicemod.wav");
+                tocarSom("jogo_hydragate/sons/ender-dragon-roar-2-made-with-Voicemod.wav");
         }
 
         public static void tocarSomFalhaBuzina() {
-                tocarSom("sons/downer_noise.wav");
+                tocarSom("jogo_hydragate/sons/downer_noise.wav");
         }
 
         public static void tocarSomErro() {
-                tocarSom("sons/erro_wFDIWJe0.wav");
+                tocarSom("jogo_hydragate/sons/erro_wFDIWJe0.wav");
         }
 
         public static void tocarSomGTAAgain() {
-                tocarSom("sons/gta-san-andreas-ah-shit-here-we-go-again_BWv0Gvc.wav");
+                tocarSom("jogo_hydragate/sons/gta-san-andreas-ah-shit-here-we-go-again_BWv0Gvc.wav");
         }
 
         public static void tocarSomYAY() {
-                tocarSom("sons/kids-saying-yay-sound-effect_3.wav");
+                tocarSom("jogo_hydragate/sons/kids-saying-yay-sound-effect_3.wav");
         }
 
         public static void tocarSomLevelUp() {
-                tocarSom("sons/levelup.wav");
+                tocarSom("jogo_hydragate/sons/levelup.wav");
         }
 
         public static void tocarSomCreditosFinais() {
-                tocarSom("sons/meme-de-creditos-finales (online-audio-converter.com).wav");
+                tocarSom("jogo_hydragate/sons/meme-de-creditos-finales (online-audio-converter.com).wav");
         }
 
         public static void tocarSomMinecraftDrink() {
-                tocarSom("sons/minecraft-drinking-sound-effect.wav");
+                tocarSom("jogo_hydragate/sons/minecraft-drinking-sound-effect.wav");
         }
 
         public static void tocarSomRizz() {
-                tocarSom("sons/rizz-sound-effect.wav");
+                tocarSom("jogo_hydragate/sons/rizz-sound-effect.wav");
         }
 
         public static void tocarSomBye() {
-                tocarSom("sons/roblox-bye.wav");
+                tocarSom("jogo_hydragate/sons/roblox-bye.wav");
         }
 
         public static void tocarSomEspada() {
-                tocarSom("sons/sword_slash-ab22fe02-3826-345a-80ad-dc22261a9127.wav");
+                tocarSom("jogo_hydragate/sons/sword_slash-ab22fe02-3826-345a-80ad-dc22261a9127.wav");
         }
 
         public static void tocarSomZawarudo() {
-                tocarSom("sons/za-warudo-toki-wo-tomare_WJVdsYt.wav");
+                tocarSom("jogo_hydragate/sons/za-warudo-toki-wo-tomare_WJVdsYt.wav");
         }
 
         public static String[][] lerDoArquivo(String nomeArquivo) {
