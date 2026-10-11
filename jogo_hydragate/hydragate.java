@@ -582,7 +582,7 @@ public class hydragate {
         public static hidra aluado(player player, hidra hidra) throws InterruptedException {
                 int danoAutoInfligido = hidra.dano / 2;
                 hidra.vida -= danoAutoInfligido;
-                hidra.vida -= atacarHidra(player, hidra).vida;
+                hidra.vida = atacarHidra(player, hidra).vida;
                 printAtivaLuaniano(danoAutoInfligido);
                 tocarSomRizz();
                 Thread.sleep(500);

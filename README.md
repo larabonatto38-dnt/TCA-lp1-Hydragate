@@ -58,13 +58,13 @@ O menu inicial exibe o nome do jogo em ASCII art e aguarda uma tecla: digite **1
    | --- | --- | --- |
    | **Javeiro** | Compilação Rápida: +3% a 7% de dano permanente a cada 2 rodadas | Debug: super-golpe de 1,5x a 3x o seu dano |
    | **Pythonico** | Sintaxe Simples: 15% de chance por rodada de atacar de novo | Zawarudooo: inibe o próximo ataque da Hidra |
-   | **Luaniano** | Pausa pro Cafezin: cura 5% a 10% da vida total a cada 2 rodadas | Aluado: replica no inimigo o dano recebido |
+   | **Luaniano** | Pausa pro Cafezin: cura 5% a 10% da vida atual a cada 2 rodadas | Aluado: replica no inimigo o dano recebido |
 
 3. **Firewall** — um quiz com 8 questões de conhecimentos de computação e programação (lidas de `jogo_hydragate/perguntas.txt`). Exemplo de questão: *"Qual componente é conhecido como o 'cérebro' do computador? 1- Processador (CPU); 2- Memória RAM; 3- Fonte de alimentação"*. Responda digitando o número da alternativa.
 4. **Revelação da habilidade** — o jogo apresenta a passiva e a ativa da classe escolhida.
 5. **Batalha contra a Hidra** — em turnos, escolha `1 - Atacar` ou `2 - Usar Habilidade Ativa` (a ativa tem *cooldown* de 3 rodadas). De tempos em tempos a Hidra solta uma baforada. As barras de vida, em cores, mostram o andamento da luta. Ao final, vitória ou derrota — com créditos.
 
-Exemplo de resultado: se você acertar todas as 8 questões do Firewall, entra na batalha com vida e dano maiores; se errar tudo, a Hidra fica mais forte que você — o número de acertos define os status dos dois lados.
+Exemplo de resultado: se você acertar todas as 8 questões do Firewall de primeira, entra na batalha com vida e dano maiores; mas quanto mais vc errar mais a Hidra fica mais forte que você — o número de erros define os status dos dois lados.
 
 ## Estrutura do projeto
 
