@@ -58,7 +58,7 @@ O menu inicial exibe o nome do jogo em ASCII art e aguarda uma tecla: digite **1
    | --- | --- | --- |
    | **Javeiro** | Compilação Rápida: +3% a 7% de dano permanente a cada 2 rodadas | Debug: super-golpe de 1,5x a 3x o seu dano |
    | **Pythonico** | Sintaxe Simples: 15% de chance por rodada de atacar de novo | Zawarudooo: inibe o próximo ataque da Hidra |
-   | **Luaniano** | Pausa pro Cafezin: cura 5% a 10% da vida atual a cada 2 rodadas | Aluado: replica no inimigo o dano recebido |
+   | **Luaniano** | Pausa pro Cafezin: cura 5% a 10% da vida atual a cada 2 rodadas | Aluado: golpe com dano normal mais metade do dano da Hidra |
 
 3. **Firewall** — um quiz com 8 questões de conhecimentos de computação e programação (lidas de `jogo_hydragate/perguntas.txt`). Exemplo de questão: *"Qual componente é conhecido como o 'cérebro' do computador? 1- Processador (CPU); 2- Memória RAM; 3- Fonte de alimentação"*. Responda digitando o número da alternativa.
 4. **Revelação da habilidade** — o jogo apresenta a passiva e a ativa da classe escolhida.
