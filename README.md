@@ -19,12 +19,14 @@ Vídeo completo da jogabilidade no YouTube: <https://youtu.be/x-XgPuPX-8w>
 **Pré-requisitos:**
 
 - **JDK 8 ou superior** (o Java Development Kit já inclui o compilador `javac`; não há nenhuma dependência externa além do próprio Java).
-- **Terminal com suporte a cores ANSI** — Windows Terminal, PowerShell, CMD (Windows 10+), ou qualquer terminal no Linux/macOS.
-- **Saída de áudio** (alto-falante/fones): opcional, mas recomendada — o jogo toca efeitos sonoros `.wav` durante a partida.
+- **VsCode** — Terminal do VsCode, PowerShell, ou qualquer outro do Linux/macOS (não usar o CMD no Windows).
+- **Saída de áudio** (alto-falante/fones): opcional, mas recomendada — para tocar efeitos sonoros `.wav` durante a partida.
+
+> De preferência use o terminal do próprio VsCode pois foi onde ocorreu os testes
 
 **Instalação:**
 
-1. Baixe ou clone o projeto:
+1. Baixe ou clone o projeto no VsCode:
 
    ```bash
    git clone https://github.com/larabonatto38-dnt/TCA-lp1-Hydragate.git
@@ -37,8 +39,7 @@ Vídeo completo da jogabilidade no YouTube: <https://youtu.be/x-XgPuPX-8w>
    javac jogo_hydragate/*.java
    ```
 
-> [!IMPORTANT]
-> Execute sempre os comandos a partir da raiz do projeto. O jogo lê as perguntas do quiz e os sons por caminhos relativos (`jogo_hydragate/perguntas.txt` e `jogo_hydragate/sons/...`); se você iniciar de outra pasta, esses arquivos não serão encontrados.
+> Execute sempre os comandos a partir da raiz do projeto pois o game lê as perguntas do quiz e os sons por caminhos relativos (`jogo_hydragate/perguntas.txt` e `jogo_hydragate/sons/...`); se você iniciar de outra pasta, esses arquivos não serão encontrados.
 
 ## Uso e exemplos
 
